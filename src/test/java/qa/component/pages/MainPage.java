@@ -11,10 +11,10 @@ import static com.codeborne.selenide.Selenide.$;
 public class MainPage {
 
     public static void mainPageHasLoaded() {
+        checkoutContainerIsDisplayed();
         homePageSlidesIsDisplayed();
         storiesBlockIsDisplayed();
         mainContentIsDisplayed();
-        checkoutContainerIsDisplayed();
     }
 
     public static boolean homePageSlidesIsDisplayed() {
